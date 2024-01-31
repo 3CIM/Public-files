@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xsd:schema 
+		xmlns:trecim="https://www.smartbuilt.se/projekt/informationsinfrastruktur/3cim"
+		xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+		xmlns:cityfurniture="http://www.opengis.net/citygml/cityfurniture/2.0" 
+		xmlns:bridge="http://www.opengis.net/citygml/bridge/2.0"
+		xmlns:building="http://www.opengis.net/citygml/building/2.0"
+		xmlns:transportation="http://www.opengis.net/citygml/transportation/2.0" 
+		xmlns:tunnel="http://www.opengis.net/citygml/tunnel/2.0" 
+		xmlns:waterbodies="http://www.opengis.net/citygml/waterbody/2.0"
+		xmlns:vegetation="http://www.opengis.net/citygml/vegetation/2.0" 
+		xmlns:core="http://www.opengis.net/citygml/2.0" 
+		xmlns:gml="http://www.opengis.net/gml" 
+		elementFormDefault="qualified" 
+		targetNamespace="https://www.smartbuilt.se/projekt/informationsinfrastruktur/3cim" 
+		version="0.1">
+		
+ <xsd:annotation>
+    <xsd:documentation>3CIM extension of CityGML 2.0</xsd:documentation>
+ </xsd:annotation>
+ 
+	<xsd:import namespace="http://www.opengis.net/citygml/2.0" schemaLocation="http://schemas.opengis.net/citygml/2.0/cityGMLBase.xsd"/>
+	<xsd:import namespace="http://www.opengis.net/citygml/bridge/2.0" schemaLocation="http://schemas.opengis.net/citygml/bridge/2.0/bridge.xsd"/>
+	<xsd:import namespace="http://www.opengis.net/citygml/building/2.0" schemaLocation="http://schemas.opengis.net/citygml/building/2.0/building.xsd"/>
+	<xsd:import namespace="http://www.opengis.net/citygml/cityfurniture/2.0" schemaLocation="http://schemas.opengis.net/citygml/cityfurniture/2.0/cityFurniture.xsd"/>
+	<xsd:import namespace="http://www.opengis.net/citygml/transportation/2.0" schemaLocation="http://schemas.opengis.net/citygml/transportation/2.0/transportation.xsd"/>
+	<xsd:import namespace="http://www.opengis.net/citygml/tunnel/2.0" schemaLocation="http://schemas.opengis.net/citygml/tunnel/2.0/tunnel.xsd"/>
+	<xsd:import namespace="http://www.opengis.net/citygml/waterbody/2.0" schemaLocation="http://schemas.opengis.net/citygml/waterbody/2.0/waterBody.xsd"/>
+	<xsd:import namespace="http://www.opengis.net/citygml/vegetation/2.0" schemaLocation="http://schemas.opengis.net/citygml/vegetation/2.0/vegetation.xsd"/>
+	<xsd:import namespace="http://www.opengis.net/gml" schemaLocation="http://schemas.opengis.net/gml/3.2.1/gml.xsd"/>
+
+<!--->Attribut som delas</!-->
+	<xsd:simpleType name="UUID">
+		<xsd:restriction base="xsd:string">
+			<xsd:pattern value="([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12})"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+<!--->
+================================================================================================================
+===================Metadata======================================================================================
+================================================================================================================
+</!--> 
+	<xsd:element name="tidpunktForLagesbestamning" type="xsd:dateTime" substitutionGroup="core:_GenericApplicationPropertyOfCityObject">
+	 <xsd:annotation>
+      <xsd:appinfo>
+        <xsd:taggedValue tag="minOccurs">0</xsd:taggedValue>
+      </xsd:appinfo>
+    </xsd:annotation>
+	</xsd:element>
+	<xsd:element name="tidpunktForKontrollAvGeometri" type="xsd:dateTime" substitutionGroup="core:_GenericApplicationPropertyOfCityObject">
+	<xsd:annotation>
+      <xsd:appinfo>
+        <xsd:taggedValue tag="minOccurs">0</xsd:taggedValue>
+      </xsd:appinfo>
+    </xsd:annotation>
+	</xsd:element>
+	<xsd:element name="metodIPlanTyp" type="gml:CodeType" substitutionGroup="core:_GenericApplicationPropertyOfCityObject">
+	<xsd:annotation>
+      <xsd:appinfo>
+        <xsd:taggedValue tag="minOccurs">0</xsd:taggedValue>
+      </xsd:appinfo>
+    </xsd:annotation>
+	</xsd:element>
+	<xsd:element name="metodIPlanTidsperiodFran" type="xsd:dateTime" substitutionGroup="core:_GenericApplicationPropertyOfCityObject">
+	<xsd:annotation>
+      <xsd:appinfo>
+        <xsd:taggedValue tag="minOccurs">0</xsd:taggedValue>
+      </xsd:appinfo>
+    </xsd:annotation>
+	</xsd:element>
+	<xsd:element name="metodIPlanTidsperiodTill" type="xsd:dateTime" substitutionGroup="core:_GenericApplicationPropertyOfCityObject">
+	<xsd:annotation>
+      <xsd:appinfo>
+        <xsd:taggedValue tag="minOccurs">0</xsd:taggedValue>
+      </xsd:appinfo>
+    </xsd:annotation>
+	</xsd:element>
+	<xsd:element name="metodIHojdTyp" type="gml:CodeType" substitutionGroup="core:_GenericApplicationPropertyOfCityObject">
+	<xsd:annotation>
+      <xsd:appinfo>
+        <xsd:taggedValue tag="minOccurs">0</xsd:taggedValue>
+      </xsd:appinfo>
+    </xsd:annotation>
+	</xsd:element>
+	<xsd:element name="metodIHojdTidsperiodFran" type="xsd:dateTime" substitutionGroup="core:_GenericApplicationPropertyOfCityObject">
+	<xsd:annotation>
+      <xsd:appinfo>
+        <xsd:taggedValue tag="minOccurs">0</xsd:taggedValue>
+      </xsd:appinfo>
+    </xsd:annotation>
+	</xsd:element>
+	<xsd:element name="metodIHojdTidsperiodTill" type="xsd:dateTime" substitutionGroup="core:_GenericApplicationPropertyOfCityObject">
+	<xsd:annotation>
+      <xsd:appinfo>
+        <xsd:taggedValue tag="minOccurs">0</xsd:taggedValue>
+      </xsd:appinfo>
+    </xsd:annotation>
+	</xsd:element>
+	<xsd:element name="osakertLage" type="gml:CodeType" substitutionGroup="core:_GenericApplicationPropertyOfCityObject">
+	<xsd:annotation>
+      <xsd:appinfo>
+        <xsd:taggedValue tag="minOccurs">0</xsd:taggedValue>
+      </xsd:appinfo>
+    </xsd:annotation>
+	</xsd:element>
+	<xsd:element name="absolutLagesosakerhetPlan" type="xsd:float" substitutionGroup="core:_GenericApplicationPropertyOfCityObject">
+	<xsd:annotation>
+      <xsd:appinfo>
+        <xsd:taggedValue tag="minOccurs">0</xsd:taggedValue>
+      </xsd:appinfo>
+    </xsd:annotation>
+	</xsd:element>
+	<xsd:element name="absolutLagesosakerhetHojd" type="xsd:float" substitutionGroup="core:_GenericApplicationPropertyOfCityObject">
+	<xsd:annotation>
+      <xsd:appinfo>
+        <xsd:taggedValue tag="minOccurs">0</xsd:taggedValue>
+      </xsd:appinfo>
+    </xsd:annotation>
+	</xsd:element>
+<!--->
+================================================================================================================
+===================Utility=====================================================================================
+================================================================================================================
+</!-->
+	<xsd:element name="Utility" substitutionGroup="core:_CityObject" type="trecim:UtilityFeatureType">
+		<xsd:annotation>
+			<xsd:appinfo>
+			<xsd:taggedValue tag="topLevel">true</xsd:taggedValue>
+			</xsd:appinfo>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:complexType name="UtilityFeatureType">
+		<xsd:complexContent>
+			<xsd:extension base="core:AbstractCityObjectType">
+				<xsd:sequence>
+					<xsd:element name="function" maxOccurs="unbounded" minOccurs="0" type="gml:CodeType"/>
+					<xsd:element name="class" minOccurs="0" type="gml:CodeType"/>
+					<xsd:element name="utilityId" minOccurs="1" type="trecim:UUID"/>
+					<xsd:element name="utilityVersion" minOccurs="1" type="xsd:integer"/>
+					<xsd:element name="utilityDiameter" minOccurs="0" type="xsd:double"/>
+					<xsd:element name="lod1Point" minOccurs="0" type="gml:PointPropertyType"/>
+					<xsd:element name="lod1Surface" minOccurs="0" type="gml:SurfacePropertyType"/>
+					<xsd:element name="lod1ImplicitRepresentation" minOccurs="0" type="core:ImplicitRepresentationPropertyType"/>
+					<xsd:element name="lod1MultiCurve" minOccurs="0" type="gml:MultiCurvePropertyType"/>
+					<xsd:element name="lod2MultiCurve" minOccurs="0" type="gml:MultiCurvePropertyType"/>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+<!--->
+================================================================================================================
+===================Bridge=====================================================================================
+================================================================================================================
+</!-->
+	<xsd:element name="bridgeId" type="trecim:UUID" substitutionGroup="bridge:_GenericApplicationPropertyOfAbstractBridge"/>
+	<xsd:element name="bridgeVersion" type="xsd:integer" substitutionGroup="bridge:_GenericApplicationPropertyOfAbstractBridge"/>
+	<xsd:element name="bridgeTransportId" type="trecim:UUID" substitutionGroup="bridge:_GenericApplicationPropertyOfAbstractBridge">
+	<xsd:annotation>
+      <xsd:appinfo>
+	    <xsd:taggedValue tag="maxOccurs">unbounded</xsd:taggedValue>
+        <xsd:taggedValue tag="minOccurs">0</xsd:taggedValue>
+      </xsd:appinfo>
+    </xsd:annotation>
+	</xsd:element>
+	<xsd:element name="bridgeBoundarySurfaceId" type="trecim:UUID" substitutionGroup="bridge:_GenericApplicationPropertyOfBoundarySurface"/>
+	<xsd:element name="bridgeMaterial" type="gml:CodeType" substitutionGroup="bridge:_GenericApplicationPropertyOfBoundarySurface">
+	<xsd:annotation>
+      <xsd:appinfo>
+	    <xsd:taggedValue tag="minOccurs">0</xsd:taggedValue>
+      </xsd:appinfo>
+    </xsd:annotation>
+	</xsd:element>
+<!--->
+================================================================================================================
+===================Building=====================================================================================
+================================================================================================================
+</!-->
+	<xsd:element name="buildingId" type="trecim:UUID" substitutionGroup="building:_GenericApplicationPropertyOfAbstractBuilding"/>
+	<xsd:element name="buildingVersion" type="xsd:integer" substitutionGroup="building:_GenericApplicationPropertyOfAbstractBuilding"/>
+	<xsd:element name="buildingInstallationId" type="trecim:UUID" substitutionGroup="building:_GenericApplicationPropertyOfBuildingInstallation"/>
+	<xsd:element name="buildingInstallationVersion" type="xsd:integer" substitutionGroup="building:_GenericApplicationPropertyOfBuildingInstallation"/>
+	<xsd:element name="connectsToGround" type="xsd:boolean" substitutionGroup="building:_GenericApplicationPropertyOfBuildingInstallation">
+	<xsd:annotation>
+      <xsd:appinfo>
+        <xsd:taggedValue tag="minOccurs">0</xsd:taggedValue>
+      </xsd:appinfo>
+    </xsd:annotation>
+	</xsd:element>
+	<xsd:element name="buildingPartStatus" type="gml:CodeType" substitutionGroup="building:_GenericApplicationPropertyOfBuildingPart"/>
+<!--->
+================================================================================================================
+===================CityFurniture================================================================================
+================================================================================================================
+</!-->
+	<xsd:element name="cityFurnitureId" type="trecim:UUID" substitutionGroup="cityfurniture:_GenericApplicationPropertyOfCityFurniture"/>
+	<xsd:element name="cityFurnitureVersion" type="xsd:integer" substitutionGroup="cityfurniture:_GenericApplicationPropertyOfCityFurniture"/>
+	<xsd:element name="cityFurnitureWidth" type="xsd:double" substitutionGroup="cityfurniture:_GenericApplicationPropertyOfCityFurniture"/>
+	<xsd:element name="cityFurnitureRelativeHeight" type="xsd:double" substitutionGroup="cityfurniture:_GenericApplicationPropertyOfCityFurniture"/>
+<!--->
+================================================================================================================
+===================Transportation======================================================================================
+================================================================================================================
+</!-->
+    <xsd:element name="Marking" substitutionGroup="transportation:TrafficArea" type="trecim:MarkingFeatureType">
+	<xsd:annotation>
+		<xsd:appinfo>
+			<xsd:taggedValue tag="relationType">aggregation</xsd:taggedValue>
+		</xsd:appinfo>
+	</xsd:annotation>
+	</xsd:element>
+	<xsd:complexType name="MarkingFeatureType">
+		<xsd:complexContent>
+			<xsd:extension base="transportation:TrafficAreaType">
+				<xsd:sequence>
+					<xsd:element name="markingType" minOccurs="1" type="gml:CodeType"/>
+					<xsd:element name="markingId" minOccurs="1" type="trecim:UUID"/>
+					<xsd:element name="lod2Point" minOccurs="0" type="gml:PointPropertyType"/>
+					<xsd:element name="lod2MultiCurve" minOccurs="0" type="gml:MultiCurvePropertyType"/>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	<xsd:element name="marking" type="trecim:MarkingPropertyType" substitutionGroup="transportation:_GenericApplicationPropertyOfTrafficArea"/>
+	<xsd:element name="trackGauge" type="xsd:integer" substitutionGroup="transportation:_GenericApplicationPropertyOfRailway"/>
+	<xsd:element name="transportationComplexId" type="trecim:UUID" substitutionGroup="transportation:_GenericApplicationPropertyOfTransportationComplex"/>
+	<xsd:element name="transportationComplexVersion" type="xsd:integer" substitutionGroup="transportation:_GenericApplicationPropertyOfTransportationComplex"/>
+	<xsd:element name="trafficAreaId" type="trecim:UUID" substitutionGroup="transportation:_GenericApplicationPropertyOfTrafficArea"/>
+	<xsd:element name="trafficAreaVersion" type="xsd:integer" substitutionGroup="transportation:_GenericApplicationPropertyOfTrafficArea"/>
+	<xsd:element name="auxiliaryTrafficAreaId" type="trecim:UUID" substitutionGroup="transportation:_GenericApplicationPropertyOfAuxiliaryTrafficArea"/>
+	<xsd:element name="auxiliaryTrafficAreaVersion" type="xsd:integer" substitutionGroup="transportation:_GenericApplicationPropertyOfAuxiliaryTrafficArea"/>
+	<xsd:complexType name="MarkingPropertyType">
+		<xsd:sequence minOccurs="0">
+			<xsd:element ref="transportation:TrafficArea"/>
+		</xsd:sequence>
+		<xsd:attributeGroup ref="gml:AssociationAttributeGroup"/>
+	</xsd:complexType>
+<!--->
+================================================================================================================
+===================Tunnel======================================================================================
+================================================================================================================
+</!-->
+	<xsd:element name="tunnelId" type="trecim:UUID" substitutionGroup="tunnel:_GenericApplicationPropertyOfAbstractTunnel"/>
+	<xsd:element name="tunnelVersion" type="xsd:integer" substitutionGroup="tunnel:_GenericApplicationPropertyOfAbstractTunnel"/>
+	<xsd:element name="tunnelTransportId" type="trecim:UUID" substitutionGroup="tunnel:_GenericApplicationPropertyOfAbstractTunnel">
+	<xsd:annotation>
+      <xsd:appinfo>
+	    <xsd:taggedValue tag="maxOccurs">unbounded</xsd:taggedValue>
+        <xsd:taggedValue tag="minOccurs">0</xsd:taggedValue>
+      </xsd:appinfo>
+    </xsd:annotation>
+	</xsd:element>
+	<xsd:element name="tunnelBoundarySurfaceId" type="trecim:UUID" substitutionGroup="tunnel:_GenericApplicationPropertyOfBoundarySurface"/>
+	<xsd:element name="tunnelMaterial" type="gml:CodeType" substitutionGroup="tunnel:_GenericApplicationPropertyOfBoundarySurface">
+	<xsd:annotation>
+      <xsd:appinfo>
+	    <xsd:taggedValue tag="minOccurs">0</xsd:taggedValue>
+      </xsd:appinfo>
+    </xsd:annotation>
+	</xsd:element>
+	<xsd:element name="tunnelShape" type="gml:CodeType" substitutionGroup="tunnel:_GenericApplicationPropertyOfInteriorWallSurface">
+	<xsd:annotation>
+      <xsd:appinfo>
+	    <xsd:taggedValue tag="minOccurs">0</xsd:taggedValue>
+      </xsd:appinfo>
+    </xsd:annotation>
+	</xsd:element>
+<!--->
+================================================================================================================
+===================WaterBody======================================================================================
+================================================================================================================
+</!-->
+	<xsd:element name="waterBodyId" type="trecim:UUID" substitutionGroup="waterbodies:_GenericApplicationPropertyOfWaterBody"/>
+	<xsd:element name="waterBodyVersion" type="xsd:integer" substitutionGroup="waterbodies:_GenericApplicationPropertyOfWaterBody"/>
+	<xsd:element name="waterLevel" type="gml:CodeType" substitutionGroup="waterbodies:_GenericApplicationPropertyOfWaterBody">
+	<xsd:annotation>
+      <xsd:appinfo>
+        <xsd:taggedValue tag="minOccurs">0</xsd:taggedValue>
+      </xsd:appinfo>
+    </xsd:annotation>
+	</xsd:element>
+<!--->
+===============================================================================================================
+===================Vegetation======================================================================================
+================================================================================================================
+</!-->
+	<xsd:element name="vegetationObjectId" type="trecim:UUID" substitutionGroup="vegetation:_GenericApplicationPropertyOfVegetationObject"/>
+	<xsd:element name="vegetationObjectVersion" type="xsd:integer" substitutionGroup="vegetation:_GenericApplicationPropertyOfVegetationObject"/>
+	<xsd:element name="lowerCrownHeight" type="xsd:double" substitutionGroup="vegetation:_GenericApplicationPropertyOfSolitaryVegetationObject">
+	<xsd:annotation>
+      <xsd:appinfo>
+        <xsd:taggedValue tag="minOccurs">0</xsd:taggedValue>
+      </xsd:appinfo>
+    </xsd:annotation>
+	</xsd:element>
+	<xsd:element name="solitaryVegetationSpeciesPopularName" type="gml:CodeType" substitutionGroup="vegetation:_GenericApplicationPropertyOfSolitaryVegetationObject"/>
+	<xsd:element name="solitaryVegetationWidth" type="xsd:double" substitutionGroup="vegetation:_GenericApplicationPropertyOfSolitaryVegetationObject">
+	<xsd:annotation>
+      <xsd:appinfo>
+        <xsd:taggedValue tag="minOccurs">0</xsd:taggedValue>
+      </xsd:appinfo>
+    </xsd:annotation>
+	</xsd:element>
+	<xsd:element name="plantCoverSpeciesPopularName" type="gml:CodeType" substitutionGroup="vegetation:_GenericApplicationPropertyOfPlantCover">
+	<xsd:annotation>
+      <xsd:appinfo>
+	    <xsd:taggedValue tag="maxOccurs">unbounded</xsd:taggedValue>
+        <xsd:taggedValue tag="minOccurs">0</xsd:taggedValue>
+      </xsd:appinfo>
+    </xsd:annotation>
+	</xsd:element>
+</xsd:schema>
