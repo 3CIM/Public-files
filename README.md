@@ -3,4 +3,4 @@ This is the public repository for the 3CIM project. The aim of this project is t
 
 From 2023 the developed information model is going to be implemented wider, developed and established further. The project organisation consists of three biggest cities in Sweden, Stockholn, Gothenburg and Malmö and the University of Lund. 
 
-In this public repository public files will be shared such as XML schemes, working material and other data. The aim is to discover, use and discuss the material being published here. 
+In this public repository public files will be openly shared via the CC0 public domain dedication. The aim is to discover, use and discuss the material being published here and enable open innovation.  
