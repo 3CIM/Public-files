@@ -1,6 +1,6 @@
 # 3CIM Public-files
 This is the public repository for the 3CIM project. The aim of this project is to studied how a common structure for geodata in 3D can be developed and form the basis for a digital twin of the city. The digital twin is a powerful tool for planning and managing our cities and enabling analyses and simulations that provide a basis for decision-making for a more robust and sustainable city, which is becoming increasingly important in line with climate change. In an initial project it was studied what it takes to develop a 3D city model that serves as a basis for a digital twin. This requires an underlying information model that allows the information to be connected in a smart way. The project developed such an information model, based on CityGML and which also relates to national specifications for geodata. 
 
-From 2023 the developed information model is going to be implemented wider, developed and established further. The project organisation consists of three biggest cities in Sweden, Stockholn, Gothenburg and Malmö and the University of Lund. 
+From 2023 the developed information model is going to be implemented wider, developed and established further. The project organisation consists of three biggest cities in Sweden, Stockholn, Gothenburg and Malmö and Lund University. 
 
 In this public repository public files will be openly shared via the CC0 public domain dedication. The aim is to discover, use and discuss the material being published here and enable open innovation.  
