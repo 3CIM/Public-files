@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gml:Dictionary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml" xsi:schemaLocation="http://www.opengis.net/gml http://schemas.opengis.net/gml/3.1.1/profiles/SimpleDictionary/1.0.0/gmlSimpleDictionaryProfile.xsd" gml:id="PlantCover_class">
+	<gml:description>PlantCover_class</gml:description>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1">
+			<gml:name>10000</gml:name>
+			<gml:description>Anlagd mark</gml:description>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id2">
+			<gml:name>20000</gml:name>
+			<gml:description>Kulturmark</gml:description>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id3">
+			<gml:name>30000</gml:name>
+			<gml:description>Naturmark</gml:description>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id4">
+			<gml:name>40000</gml:name>
+			<gml:description>Övrigt</gml:description>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+</gml:Dictionary>

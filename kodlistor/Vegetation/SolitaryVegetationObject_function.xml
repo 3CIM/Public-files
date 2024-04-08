@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gml:Dictionary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml" xsi:schemaLocation="http://www.opengis.net/gml http://schemas.opengis.net/gml/3.1.1/profiles/SimpleDictionary/1.0.0/gmlSimpleDictionaryProfile.xsd" gml:id="SolitaryVegetationObject_function">
+	<gml:description>SolitaryVegetationObject_function</gml:description>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1">
+			<gml:name>10100</gml:name>
+			<gml:description>Plantering</gml:description>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id2">
+			<gml:name>10103</gml:name>
+			<gml:description>Rabatt</gml:description>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id3">
+			<gml:name>10104</gml:name>
+			<gml:description>Klätterväxt</gml:description>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id4">
+			<gml:name>10105</gml:name>
+			<gml:description>Perenna växt</gml:description>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5">
+			<gml:name>10106</gml:name>
+			<gml:description>Växt i urna eller låda</gml:description>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6">
+			<gml:name>10107</gml:name>
+			<gml:description>Ospecificerad plantering</gml:description>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7">
+			<gml:name>10200</gml:name>
+			<gml:description>Buskage</gml:description>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id8">
+			<gml:name>10201</gml:name>
+			<gml:description>Prydnadsbuskage</gml:description>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id9">
+			<gml:name>10202</gml:name>
+			<gml:description>Bruksbuskage</gml:description>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id10">
+			<gml:name>10300</gml:name>
+			<gml:description>Häck</gml:description>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id11">
+			<gml:name>10301</gml:name>
+			<gml:description>Prydnadshäck</gml:description>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id12">
+			<gml:name>10500</gml:name>
+			<gml:description>Träd</gml:description>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id13">
+			<gml:name>10501</gml:name>
+			<gml:description>Barrträd</gml:description>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id14">
+			<gml:name>10502</gml:name>
+			<gml:description>Lövträd</gml:description>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id15">
+			<gml:name>10503</gml:name>
+			<gml:description>Fruktträd</gml:description>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id16">
+			<gml:name>10504</gml:name>
+			<gml:description>Alléträd</gml:description>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id17">
+			<gml:name>10505</gml:name>
+			<gml:description>Prydnadsträd</gml:description>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id18">
+			<gml:name>10506</gml:name>
+			<gml:description>Okänt</gml:description>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+</gml:Dictionary>

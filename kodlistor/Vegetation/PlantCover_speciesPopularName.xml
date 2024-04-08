@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gml:Dictionary xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/gml http://schemas.opengis.net/gml/3.1.1/profiles/SimpleDictionary/1.0.0/gmlSimpleDictionaryProfile.xsd" gml:id="PlantCover_speciesPopularName">
+  <gml:name>PlantCover_speciesPopularName</gml:name>
+    <gml:dictionaryEntry>
+    <gml:Definition gml:id="id1">
+      <gml:description>Al (gråal)</gml:description>
+      <gml:name>10000</gml:name>
+    </gml:Definition>
+  </gml:dictionaryEntry><gml:dictionaryEntry>
+    <gml:Definition gml:id="id2">
+      <gml:description>Al (klibbal)</gml:description>
+      <gml:name>10001</gml:name>
+    </gml:Definition>
+  </gml:dictionaryEntry><gml:dictionaryEntry>
+    <gml:Definition gml:id="id3">
+      <gml:description>Alm</gml:description>
+      <gml:name>10002</gml:name>
+    </gml:Definition>
+  </gml:dictionaryEntry><gml:dictionaryEntry>
+    <gml:Definition gml:id="id4">
+      <gml:description>Ask</gml:description>
+      <gml:name>10003</gml:name>
+    </gml:Definition>
+  </gml:dictionaryEntry><gml:dictionaryEntry>
+    <gml:Definition gml:id="id5">
+      <gml:description>Asp</gml:description>
+      <gml:name>10004</gml:name>
+    </gml:Definition>
+  </gml:dictionaryEntry><gml:dictionaryEntry>
+    <gml:Definition gml:id="id6">
+      <gml:description>Avenbok</gml:description>
+      <gml:name>10005</gml:name>
+    </gml:Definition>
+  </gml:dictionaryEntry><gml:dictionaryEntry>
+    <gml:Definition gml:id="id7">
+      <gml:description>Björk (glasbjörk)</gml:description>
+      <gml:name>10006</gml:name>
+    </gml:Definition>
+  </gml:dictionaryEntry><gml:dictionaryEntry>
+    <gml:Definition gml:id="id8">
+      <gml:description>Björk (vårtbjörk)</gml:description>
+      <gml:name>10007</gml:name>
+    </gml:Definition>
+  </gml:dictionaryEntry><gml:dictionaryEntry>
+    <gml:Definition gml:id="id9">
+      <gml:description>Bok</gml:description>
+      <gml:name>10008</gml:name>
+    </gml:Definition>
+  </gml:dictionaryEntry><gml:dictionaryEntry>
+    <gml:Definition gml:id="id10">
+      <gml:description>Brakved</gml:description>
+      <gml:name>10009</gml:name>
+    </gml:Definition>
+  </gml:dictionaryEntry><gml:dictionaryEntry>
+    <gml:Definition gml:id="id11">
+      <gml:description>Ek (bergek)</gml:description>
+      <gml:name>10010</gml:name>
+    </gml:Definition>
+  </gml:dictionaryEntry><gml:dictionaryEntry>
+    <gml:Definition gml:id="id12">
+      <gml:description>Ek (skogsek)</gml:description>
+      <gml:name>10011</gml:name>
+    </gml:Definition>
+  </gml:dictionaryEntry><gml:dictionaryEntry>
+    <gml:Definition gml:id="id13">
+      <gml:description>En</gml:description>
+      <gml:name>10012</gml:name>
+    </gml:Definition>
+  </gml:dictionaryEntry><gml:dictionaryEntry>
+    <gml:Definition gml:id="id14">
+      <gml:description>Fågelbär</gml:description>
+      <gml:name>10013</gml:name>
+    </gml:Definition>
+  </gml:dictionaryEntry><gml:dictionaryEntry>
+    <gml:Definition gml:id="id15">
+      <gml:description>Gran</gml:description>
+      <gml:name>10014</gml:name>
+    </gml:Definition>
+  </gml:dictionaryEntry><gml:dictionaryEntry>
+    <gml:Definition gml:id="id16">
+      <gml:description>Hassel</gml:description>
+      <gml:name>10015</gml:name>
+    </gml:Definition>
+  </gml:dictionaryEntry><gml:dictionaryEntry>
+    <gml:Definition gml:id="id17">
+      <gml:description>Hägg</gml:description>
+      <gml:name>10016</gml:name>
+    </gml:Definition>
+  </gml:dictionaryEntry><gml:dictionaryEntry>
+    <gml:Definition gml:id="id18">
+      <gml:description>Hästkastanj</gml:description>
+      <gml:name>10017</gml:name>
+    </gml:Definition>
+  </gml:dictionaryEntry><gml:dictionaryEntry>
+    <gml:Definition gml:id="id19">
+      <gml:description>Lind</gml:description>
+      <gml:name>10018</gml:name>
+    </gml:Definition>
+  </gml:dictionaryEntry><gml:dictionaryEntry>
+    <gml:Definition gml:id="id20">
+      <gml:description>Lärk</gml:description>
+      <gml:name>10019</gml:name>
+    </gml:Definition>
+  </gml:dictionaryEntry><gml:dictionaryEntry>
+    <gml:Definition gml:id="id21">
+      <gml:description>Lönn (skogslönn)</gml:description>
+      <gml:name>10020</gml:name>
+    </gml:Definition>
+  </gml:dictionaryEntry><gml:dictionaryEntry>
+    <gml:Definition gml:id="id22">
+      <gml:description>Oxel</gml:description>
+      <gml:name>10021</gml:name>
+    </gml:Definition>
+  </gml:dictionaryEntry><gml:dictionaryEntry>
+    <gml:Definition gml:id="id23">
+      <gml:description>Rönn</gml:description>
+      <gml:name>10022</gml:name>
+    </gml:Definition>
+  </gml:dictionaryEntry><gml:dictionaryEntry>
+    <gml:Definition gml:id="id24">
+      <gml:description>Sälg</gml:description>
+      <gml:name>10023</gml:name>
+    </gml:Definition>
+  </gml:dictionaryEntry><gml:dictionaryEntry>
+    <gml:Definition gml:id="id25">
+      <gml:description>Tall</gml:description>
+      <gml:name>10024</gml:name>
+    </gml:Definition>
+  </gml:dictionaryEntry>
+</gml:Dictionary>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gml:Dictionary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml" xsi:schemaLocation="http://www.opengis.net/gml http://schemas.opengis.net/gml/3.1.1/profiles/SimpleDictionary/1.0.0/gmlSimpleDictionaryProfile.xsd" gml:id="TransportationComplex_class">
+	<gml:description>TransportationComplex_class</gml:description>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1">
+			<gml:name>10000</gml:name>
+			<gml:description>Vägtrafik</gml:description>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id2">
+			<gml:name>20000</gml:name>
+			<gml:description>Järnväg</gml:description>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id3">
+			<gml:name>30000</gml:name>
+			<gml:description>Lufttrafik</gml:description>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id4">
+			<gml:name>40000</gml:name>
+			<gml:description>Vattenväg</gml:description>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5">
+			<gml:name>50000</gml:name>
+			<gml:description>Militärt</gml:description>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6">
+			<gml:name>60000</gml:name>
+			<gml:description>Övrigt</gml:description>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+</gml:Dictionary>
