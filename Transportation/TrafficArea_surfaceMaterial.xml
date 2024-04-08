@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gml:Dictionary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml" xsi:schemaLocation="http://www.opengis.net/gml http://schemas.opengis.net/gml/3.1.1/profiles/SimpleDictionary/1.0.0/gmlSimpleDictionaryProfile.xsd" gml:id="AuxiliaryTrafficArea_surfaceMaterial">
+	<gml:name>AuxiliaryTrafficArea_surfaceMaterial</gml:name>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1">
+			<gml:description>Asfalt</gml:description>
+			<gml:name>10000</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id2">
+			<gml:description>Betong</gml:description>
+			<gml:name>10001</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id3">
+			<gml:description>Stenlagt</gml:description>
+			<gml:name>10002</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id4">
+			<gml:description>Kullersten</gml:description>
+			<gml:name>10003</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5">
+			<gml:description>Grus</gml:description>
+			<gml:name>10004</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6">
+			<gml:description>Spår i väg</gml:description>
+			<gml:name>10005</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7">
+			<gml:description>Spår med underbyggnad</gml:description>
+			<gml:name>10006</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id8">
+			<gml:description>Jord</gml:description>
+			<gml:name>10007</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id9">
+			<gml:description>Sand</gml:description>
+			<gml:name>10008</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id10">
+			<gml:description>Gräs</gml:description>
+			<gml:name>10009</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id11">
+			<gml:description>Trä</gml:description>
+			<gml:name>10010</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id12">
+			<gml:description>Stål</gml:description>
+			<gml:name>10011</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id13">
+			<gml:description>Marmor</gml:description>
+			<gml:name>10012</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id14">
+			<gml:description>Okänd</gml:description>
+			<gml:name>10013</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+</gml:Dictionary>

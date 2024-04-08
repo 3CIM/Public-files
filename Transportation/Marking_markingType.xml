@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gml:Dictionary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml" xsi:schemaLocation="http://www.opengis.net/gml http://schemas.opengis.net/gml/3.1.1/profiles/SimpleDictionary/1.0.0/gmlSimpleDictionaryProfile.xsd" gml:id="Marking_markingType">
+	<gml:name>Marking_markingType</gml:name>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1">
+			<gml:description>M1. mittlinje eller körfältslinje</gml:description>
+			<gml:name>10000</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id2">
+			<gml:description>M2. kantlinje</gml:description>
+			<gml:name>10001</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id3">
+			<gml:description>M3. varningslinje</gml:description>
+			<gml:name>10002</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id4">
+			<gml:description>M4. ledlinje</gml:description>
+			<gml:name>10003</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5">
+			<gml:description>M5. cykelfältslinje</gml:description>
+			<gml:name>10004</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6">
+			<gml:description>M6. linje för fordon i linjetrafik med flera</gml:description>
+			<gml:name>10005</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7">
+			<gml:description>M7. reversibelt körfält</gml:description>
+			<gml:name>10006</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id8">
+			<gml:description>M8. heldragen linje</gml:description>
+			<gml:name>10007</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id9">
+			<gml:description>M9. spärrområde</gml:description>
+			<gml:name>10008</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id10">
+			<gml:description>M10. mittlinje eller körfältslinje och heldragen linje</gml:description>
+			<gml:name>10009</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id11">
+			<gml:description>M11. varningslinje och heldragen linje</gml:description>
+			<gml:name>10010</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id12">
+			<gml:description>M12. mittlinje och varningslinje</gml:description>
+			<gml:name>10011</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id13">
+			<gml:description>M13. stopplinje</gml:description>
+			<gml:name>10012</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id14">
+			<gml:description>M14. väjningslinje</gml:description>
+			<gml:name>10013</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id15">
+			<gml:description>M15. övergångsställe</gml:description>
+			<gml:name>10014</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id16">
+			<gml:description>M16. cykelpassage eller cykelöverfart</gml:description>
+			<gml:name>10015</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id17">
+			<gml:description>M17. farthinder</gml:description>
+			<gml:name>10016</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id18">
+			<gml:description>M17a. cykelbox</gml:description>
+			<gml:name>10017</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id19">
+			<gml:description>M18. förberedande upplysning om väjningsplikt eller stopplikt</gml:description>
+			<gml:name>10018</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id20">
+			<gml:description>M19. körfältspilar</gml:description>
+			<gml:name>10019</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id21">
+			<gml:description>M20. körfältsbyte</gml:description>
+			<gml:name>10020</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id22">
+			<gml:description>M21. förbud mot att stanna och parkera</gml:description>
+			<gml:name>10021</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id23">
+			<gml:description>M22. förbud mot att parkera</gml:description>
+			<gml:name>10022</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id24">
+			<gml:description>M23. förbud mot att stanna och parkera eller att parkera</gml:description>
+			<gml:name>10023</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id25">
+			<gml:description>M24. uppställningsplats</gml:description>
+			<gml:name>10024</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id26">
+			<gml:description>M25. gång- och cykelpil</gml:description>
+			<gml:name>10025</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id27">
+			<gml:description>M26. cykel</gml:description>
+			<gml:name>10026</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id28">
+			<gml:description>M27. gående</gml:description>
+			<gml:name>10027</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id29">
+			<gml:description>M28. buss</gml:description>
+			<gml:name>10028</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id30">
+			<gml:description>M29. hastighet</gml:description>
+			<gml:name>10029</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id31">
+			<gml:description>M30. vägnummer</gml:description>
+			<gml:name>10030</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id32">
+			<gml:description>M31. ändamålsplats</gml:description>
+			<gml:name>10031</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id33">
+			<gml:description>M32. stopp</gml:description>
+			<gml:name>10032</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id34">
+			<gml:description>M33. rörelsehindrad</gml:description>
+			<gml:name>10033</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id35">
+			<gml:description>M34. information</gml:description>
+			<gml:name>10034</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+</gml:Dictionary>
