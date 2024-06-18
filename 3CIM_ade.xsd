@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <xsd:schema 
-		xmlns:trecim="https://www.smartbuilt.se/projekt/informationsinfrastruktur/3cim"
+		xmlns:trecim="https://https://github.com/3CIM/Public-files"
 		xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
 		xmlns:cityfurniture="http://www.opengis.net/citygml/cityfurniture/2.0" 
 		xmlns:bridge="http://www.opengis.net/citygml/bridge/2.0"
@@ -13,7 +13,7 @@
 		xmlns:core="http://www.opengis.net/citygml/2.0" 
 		xmlns:gml="http://www.opengis.net/gml" 
 		elementFormDefault="qualified" 
-		targetNamespace="https://www.smartbuilt.se/projekt/informationsinfrastruktur/3cim" 
+		targetNamespace="https://github.com/3CIM/Public-files" 
 		version="0.1">
 		
  <xsd:annotation>
